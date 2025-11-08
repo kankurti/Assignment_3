@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Needed for flashing messages
+app.secret_key = '086b5567cee5a2b21873cc7862be9678'  # Needed for flashing messages
 
 # --- MongoDB Atlas Connection ---
 # Replace the connection string below with your own MongoDB Atlas URI
